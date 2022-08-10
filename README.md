@@ -50,6 +50,12 @@ $ yarn test:cov
 $ docker-compose up -d
 ```
 
+## Poblar base de datos con esta petición de tipo Get desde Postman
+
+```bash
+localhost:3000/api/v2/pokemon
+```
+
 ## Stack usado
 * MongoDB
 * NestJs
