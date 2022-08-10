@@ -53,7 +53,7 @@ $ docker-compose up -d
 ## Poblar base de datos con esta petición de tipo Get desde Postman
 
 ```bash
-localhost:3000/api/v2/pokemon
+localhost:3000/api/v2/seed
 ```
 
 ## Stack usado
