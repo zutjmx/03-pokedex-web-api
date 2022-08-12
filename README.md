@@ -60,6 +60,12 @@ localhost:3000/api/v2/seed
 
 ## Llenar las variables de ambiente definidas en el archivo __.env__
 
+## Para forzar re-deploy en Heroku sin cambios:
+```bash
+git commit --alow-empty -m "Trigger Heroku Deploy"
+git push heroku main
+```
+
 ## Stack usado
 * MongoDB
 * NestJs
