@@ -2,12 +2,12 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-## Description
+## Description:
 
 Aplicación en NestJs para la sección 3 del curso Nest: Desarrollo BackEnd escalable con Node.
 [Repositorio GitHub](https://github.com/zutjmx/03-pokedex-web-api) 
 
-## Installation
+## Installation:
 Se requiere previamente la instlación del CLI de NestJs [NestJs](https://docs.nestjs.com/first-steps)
 
 ```bash
@@ -18,7 +18,7 @@ $ npm i -g @nestjs/cli
 $ yarn install
 ```
 
-## Running the app
+## Running the app:
 
 ```bash
 # development
@@ -31,7 +31,7 @@ $ yarn start:dev
 $ yarn start:prod
 ```
 
-## Test
+## Test:
 
 ```bash
 # unit tests
@@ -44,17 +44,21 @@ $ yarn test:e2e
 $ yarn test:cov
 ```
 
-## Ejecución del ambiente de MongoDB con Docker
+## Ejecución del ambiente de MongoDB con Docker:
 
 ```bash
 $ docker-compose up -d
 ```
 
-## Poblar base de datos con esta petición de tipo Get desde Postman
+## Poblar la base de datos con esta petición de tipo Get desde Postman:
 
-```bash
+```Postman
 localhost:3000/api/v2/seed
 ```
+
+## Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+## Llenar las variables de ambiente definidas en el archivo __.env__
 
 ## Stack usado
 * MongoDB
