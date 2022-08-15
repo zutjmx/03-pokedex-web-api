@@ -66,6 +66,15 @@ git commit --alow-empty -m "Trigger Heroku Deploy"
 git push heroku main
 ```
 
+## Build de producción:
+## Crear archivo __.env.prod__
+## Llenar las variables de entorno de producción
+## Comando para crear la imagen:
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+```
+
 ## Stack usado
 * MongoDB
 * NestJs
